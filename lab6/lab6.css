@@ -10,7 +10,7 @@ h1.title{
     text-align: center;
     padding: 2em;
     border: solid 1px  gray;
-    margin-top: 3em auto;
+    margin: 3em auto;
 
 }
 .box1{
@@ -79,12 +79,12 @@ border-radius: 50%;
     width: 100%;
 }
 .footer{
-    height:100px ;
+    height: 100px;
     margin: auto;
-    width: 100px;
+    width: 1000px;
     background-color: blanchedalmond;
 }
-.liquidheader, .liquidnav, .liquidcontainer, .liquidcontainer{
+.liquidheader, .liquidnav, .liquidcontainer, .liquidfooter{
     width: 80%;
 }
 .liquidleftblock{
@@ -93,4 +93,91 @@ border-radius: 50%;
 }
 .liquidright{
     width: 29%;
+
+}
+/*CARDS*/
+.cardcontainer{
+    width: 90%;
+    height: 600px ;
+    margin: 2em auto;
+    border: solid gray 1px;
+
+}
+.card{
+    width: 40%;
+    height: auto;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 12px;
+    margin: 0% 5%; 
+    overflow: hidden;
+    float: left;
+}
+img{ width: 100%; display: block;}
+.card img{
+    height: 80%;
+}
+.card h3{
+    text-align: center;
+
+}
+.card h3 a{
+    color: olive;
+}
+.card:hover{
+    box-shadow: 0px 0px 10px 1px olive;
+    cursor: pointer;
+}
+.card:hover  .cardlink{
+    color: purple;
+    font-size: 1.1em;
+}
+.cardioinfo{
+    padding: 1.5em;
+    font-size: 1.1em;
+    text-align: justify;
+}
+.cardfooterlink{
+    text-align: center;
+    display: block;
+    background-color: black;
+    color: aliceblue;
+    padding: 1em;
+}
+.card:hover .cardfooterlink{
+    background-color: aqua;
+    font-size: 1.1em;
+}
+/*NAVIGATION TABS*/
+.verticaltabs{
+    list-style: none;
+
+}
+.verticaltabs li a{
+    display: block;
+    background-color: gainsboro
+    width: 30%;
+    color: azure;
+    padding: 1em;
+    text-decoration: none ;
+}
+.verticaltabs li a:hover{
+    background-color: aqua;
+    color: rgb(189, 163, 212);
+}
+.horizontaltabs{
+    background-color: whitesmoke;
+    color: black
+
+}
+.horizontaltabs a{
+    display: block;
+    width: 33%;
+    text-align: center;
+    color: aliceblue;
+    padding:  1em;
+    text-decoration: none;
+}
+.horizontaltabs:hover{
+    background-color: aqua;
+    color: blue;
 }
