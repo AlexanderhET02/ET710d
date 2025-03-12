@@ -1,0 +1,46 @@
+/*lab10.css*/
+.navlinks{
+    background-color:blueviolet;
+    width: 90%;
+    display:flex ;
+    justify-content: right;
+    align-items: center;
+}
+.header{
+    align-items: center;
+}
+/*CARDS*/
+.maincontainer{
+    border: solid gray;
+    width: auto;
+    height: auto;
+    margin: 2em auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.card img {
+    width: 20%;
+    height: auto;
+    object-fit: cover;
+    align-items: center;
+}
+.card{
+    border: 1px solid #ddd;
+    padding: 1em;
+    text-align: center;
+    width: 30%;
+    margin-bottom: 2em;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}

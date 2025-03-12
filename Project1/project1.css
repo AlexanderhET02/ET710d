@@ -1,0 +1,81 @@
+/*project1.css*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    color: #333;
+  }
+  
+  header {
+    background: #6c757d;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    position: relative;
+  }
+  
+  nav {
+    background: #343a40;
+    padding: 0.5em 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #ffc107;
+  }
+  
+  .intro-image {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    opacity: 0.8; /* Adjust transparency */
+  }
+  
+  h1 {
+    margin: 10px 0 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .transparent-image {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    opacity: 0.8; /* Adjust transparency */
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #6c757d;
+    color: #fff;
+  }
+  
