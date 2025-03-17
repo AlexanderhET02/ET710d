@@ -1,15 +1,15 @@
 /*project1.css*/
 body {
-    font-family: Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #f4f4f9;
+    background: #cbcbcf;
     color: #333;
   }
   
-  header {
-    background: #6c757d;
+  header img{
+    background: (img);
     color: #fff;
     padding: 1em 0;
     text-align: center;
@@ -17,7 +17,7 @@ body {
   }
   
   nav {
-    background: #343a40;
+    background: #073d74;
     padding: 0.5em 0;
     position: sticky;
     top: 0;
@@ -64,14 +64,33 @@ body {
   section {
     margin-bottom: 20px;
   }
-  
+  img{ width: 100% ; display: block;}
+.logo{
+    width: auto;
+    margin: 1em auto;
+    box-shadow: 1px, 1px, 5px;
+    position: relative;
+    .transparent-image
+}
   .transparent-image {
     display: block;
     margin: 10px auto;
     max-width: 100%;
     opacity: 0.8; /* Adjust transparency */
   }
-  
+  .imgtitle{
+    background-attachment: fixed;
+    position: absolute;
+    top: 10%;
+    bottom: 40%;
+    left: 20%;
+    right: 20%;
+    text-align: left;
+    font-size: 2em;
+    padding: 0em;
+    text-shadow: 1em #8b4cb8;
+    text-decoration: cornflowerblue;
+  }
   footer {
     text-align: center;
     padding: 1em 0;
