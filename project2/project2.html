@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Handcrafted Rings</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="project2.css">
+  </head>
+  <body>
+    <h1 class="text-center">Handcrafted Rings</h1>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Men's Rings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Women's Rings</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+   <!-- Hero Section with Carousel -->
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-6">
+      <h2>Handcrafted Rings</h2>
+      <p>Old-style ring-making techniques by professional artists using natural resources like gold silver and diamond.</p>
+      <a href="#" class="btn btn-primary">Explore</a>
+    </div>
+    <div class="col-md-6">
+      <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/rings.jpg" class="d-block w-100 img-fluid" alt="Elegant Ring 1">
+          </div>
+          <div class="carousel-item">
+            <img src="images/rigg.jpg" class="d-block w-100 img-fluid" alt="Elegant Ring 2">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Men's Rings Section -->
+    <div class="container mt-5">
+      <h3 class="text-center">Men's Rings</h3>
+      <div class="row text-center">
+        <div class="col-md-6">
+          <img src="images/images.jpeg" class="img-thumbnail" alt="Men's Ring 1" data-bs-toggle="modal" data-bs-target="#menModal1">
+          <p>Men's Ring</p>
+        </div>
+        <div class="col-md-6">
+          <img src="images/ring.m2.jpeg" class="img-thumbnail" alt="Men's Ring 2" data-bs-toggle="modal" data-bs-target="#menModal2">
+          <p>Men's Ring</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Women's Rings Section -->
+    <div class="container mt-5">
+      <h3 class="text-center">Women's Rings</h3>
+      <div class="row text-center">
+        <div class="col-md-6">
+          <img src="images/ring.w1.jpeg" class="img-thumbnail" alt="Women's Ring 1" data-bs-toggle="modal" data-bs-target="#womenModal1">
+          <p>Women's Ring </p>
+        </div>
+        <div class="col-md-6">
+          <img src="images/ring.w2.jpeg" class="img-thumbnail" alt="Women's Ring 2" data-bs-toggle="modal" data-bs-target="#womenModal2">
+          <p>Women's Ring </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Windows -->
+    <!-- Men's Ring 1 Modal -->
+    <div class="modal fade" id="menModal1" tabindex="-1" aria-labelledby="menModal1Label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="menModal1Label">Men's Ring 1</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="images/images.jpeg" class="img-fluid" alt="Men's Ring">
+            <p>Handcrafted men's ring made from gold.</p>
+            <p>Price: $120</p>
+            <!-- Shopping Interface -->
+            <form>
+              <label for="quantity1" class="form-label">Quantity:</label>
+              <input type="number" id="quantity1" class="form-control mb-3" min="1" value="1">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-success">Buy Now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Men's Ring 2 Modal -->
+    <div class="modal fade" id="menModal2" tabindex="-1" aria-labelledby="menModal2Label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="menModal2Label">Men's Ring </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="images/ring.m2.jpeg" class="img-fluid" alt="Men's Ring 2">
+            <p>Elegant men's ring crafted from silver .</p>
+            <p>Price: $150</p>
+            <!-- Shopping Interface -->
+            <form>
+              <label for="quantity2" class="form-label">Quantity:</label>
+              <input type="number" id="quantity2" class="form-control mb-3" min="1" value="1">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-success">Buy Now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Women's Ring 1 Modal -->
+    <div class="modal fade" id="womenModal1" tabindex="-1" aria-labelledby="womenModal1Label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="womenModal1Label">Women's Ring 1</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="images/ring.w1.jpeg" class="img-fluid" alt="Women's Ring 1">
+            <p>Beautiful women's ring made of gold.</p>
+            <p>Price: $250</p>
+            <!-- Shopping Interface -->
+            <form>
+              <label for="quantity3" class="form-label">Quantity:</label>
+              <input type="number" id="quantity3" class="form-control mb-3" min="1" value="1">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-success">Buy Now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Women's Ring 2 Modal -->
+    <div class="modal fade" id="womenModal2" tabindex="-1" aria-labelledby="womenModal2Label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="womenModal2Label">Women's Ring 2</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="images/ring.w2.jpeg" class="img-fluid" alt="Women's Ring 2">
+            <p>Elegant women's ring made of silver.</p>
+            <p>Price: $200</p>
+            <!-- Shopping Interface -->
+            <form>
+              <label for="quantity4" class="form-label">Quantity:</label>
+              <input type="number" id="quantity4" class="form-control mb-3" min="1" value="1">
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+              <button type="button" class="btn btn-success">Buy Now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Men's Engagement Rings Discount Section -->
+<div class="container mt-5">
+  <h3 class="text-center text-danger">Special Discount: Engagement Rings</h3>
+  <div class="row text-center">
+    <div class="col-md-6">
+      <a href="#" data-bs-toggle="modal" data-bs-target="#engagementModal1">
+        <img src="images/engagment.webp" class="img-thumbnail" alt="Men's Engagement Ring 1">
+      </a>
+      <p><strong> Engagement Ring</strong> - <span class="text-danger">20% Off!</span></p>
+    </div>
+    <div class="col-md-6">
+      <a href="#" data-bs-toggle="modal" data-bs-target="#engagementModal2">
+        <img src="images/engagment2.webp" class="img-thumbnail" alt="Men's Engagement Ring 2">
+      </a>
+      <p><strong>Engagement Ring </strong> - <span class="text-danger">15% Off!</span></p>
+    </div>
+  </div>
+</div>
+
+<!-- Modal: Men's Engagement Ring 1 -->
+<div class="modal fade" id="engagementModal1" tabindex="-1" aria-labelledby="engagementModal1Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="engagementModal1Label">Men's Engagement Ring 1 - <span class="text-danger">20% Off!</span></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/engagment.webp" class="img-fluid" alt="Men's Engagement Ring 1">
+        <p>Elegant handcrafted engagement ring made of gold and  with a hand shaped diamond encrusted in the middle. .</p>
+        <p><strong>Original Price:</strong> <del>$300</del> <strong>Now:</strong> $240</p>
+        <!-- Shopping Interface -->
+        <form>
+          <label for="quantityEng1" class="form-label">Quantity:</label>
+          <input type="number" id="quantityEng1" class="form-control mb-3" min="1" value="1">
+          <button type="button" class="btn btn-primary">Add to Cart</button>
+          <button type="button" class="btn btn-success">Buy Now</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal: Men's Engagement Ring 2 -->
+<div class="modal fade" id="engagementModal2" tabindex="-1" aria-labelledby="engagementModal2Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="engagementModal2Label"> Engagement Ring - <span class="text-danger">15% Off!</span></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/engagment2.webp" class="img-fluid" alt="Men's Engagement Ring 2">
+        <p>Classic engagement ring designed with gold and a diamond centerpiece.</p>
+        <p><strong>Original Price:</strong> <del>$400</del> <strong>Now:</strong> $340</p>
+        <!-- Shopping Interface -->
+        <form>
+          <label for="quantityEng2" class="form-label">Quantity:</label>
+          <input type="number" id="quantityEng2" class="form-control mb-3" min="1" value="1">
+          <button type="button" class="btn btn-primary">Add to Cart</button>
+          <button type="button" class="btn btn-success">Buy Now</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Ring Size Selection Section -->
+<form>
+  <div class="mb-8">
+    <label for="ringSize1" class="form-label"><strong>Select Your Ring Size:</strong></label>
+    <select id="ringSize1" class="form-select">
+      <option value="5">Size 5</option>
+      <option value="6">Size 6</option>
+      <option value="7">Size 7</option>
+      <option value="8">Size 8</option>
+      <option value="9">Size 9</option>
+      <option value="10">Size 10</option>
+      <option value="11">Size 11</option>
+      <option value="12">Size 12</option>
+    </select>
+  </div>
+
+
+
+<!-- Feedback Section -->
+<div class="container mt-5">
+  <h3 class="text-center">Customer Feedback</h3>
+  <p class="text-center">We'd love to hear your thoughts about our handcrafted rings!</p>
+  
+  <form>
+    <div class="mb-3">
+      <label for="name" class="form-label">Name:</label>
+      <input type="text" id="name" class="form-control" placeholder="Enter your name">
+    </div>
+    
+    <div class="mb-3">
+      <label for="email" class="form-label">Email:</label>
+      <input type="email" id="email" class="form-control" placeholder="Enter your email">
+    </div>
+    
+    <div class="mb-3">
+      <label for="comments" class="form-label">Feedback:</label>
+      <textarea id="comments" class="form-control" rows="4" placeholder="Share your thoughts"></textarea>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Submit Feedback</button>
+  </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>

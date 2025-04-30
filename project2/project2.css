@@ -1,0 +1,31 @@
+
+    :root {
+        --primary-color: rgb(134, 124, 80);
+        
+
+      }
+.title{
+    background-color: var(--primarycolor);
+    color: var(--primarylight);
+}
+body {
+    background-image: url('images/zeta.webp'); /* Make sure you have this image */
+    background-size: cover;
+    color: black; /* Text stays readable */
+  }
+  body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    color: rgb(39, 7, 7);
+  }
+  
+  h1, h2, h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  
+  
+  
